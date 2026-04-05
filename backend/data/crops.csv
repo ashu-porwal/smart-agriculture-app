@@ -1,0 +1,31 @@
+crop_name,soil_type,temperature_range,best_month,moisture_requirement,water_requirement,fertilizer_recommendation
+Wheat,Loamy,20-25°C,Nov-Dec,Medium,50-60cm,N:P:K 100:50:50
+Rice,Clay,25-30°C,Jun-Jul,High,100-150cm,N:P:K 120:60:60
+Corn,Loamy,21-27°C,Apr-Jun,Medium,50-70cm,N:P:K 150:75:75
+Tomato,Sandy Loam,20-25°C,Feb-Jun,High,40-50cm,N:P:K 60:90:60
+Potato,Loamy,18-20°C,Oct-Dec,Medium,50-60cm,N:P:K 80:40:120
+Onion,Sandy Loam,15-25°C,Oct-Jan,Low,40-50cm,N:P:K 120:60:60
+Sugarcane,Clay Loam,21-27°C,Feb-Mar,High,150-200cm,N:P:K 200:100:100
+Cotton,Loamy,21-30°C,May-Jun,Low,50-60cm,N:P:K 120:40:40
+Soybean,Loamy,20-32°C,May-Jun,Medium,45-60cm,N:P:K 45:90:90
+Chickpea,Loamy,20-30°C,Oct-Nov,Low,40-50cm,N:P:K 20:40:40
+Barley,Loamy,12-25°C,Oct-Nov,Low,30-50cm,N:P:K 40:20:20
+Mustard,Sandy Loam,10-25°C,Oct-Nov,Low,30-40cm,N:P:K 80:40:40
+Groundnut,Sandy,20-30°C,Jun-Jul,Medium,50-75cm,N:P:K 20:40:40
+Sunflower,Well-drained,20-25°C,Jan-Feb,Medium,50-70cm,N:P:K 60:40:40
+Pea,Loamy,13-18°C,Oct-Nov,Medium,30-50cm,N:P:K 20:40:20
+Lentil,Loamy,18-30°C,Oct-Nov,Low,30-40cm,N:P:K 20:40:20
+Cabbage,Clay Loam,15-20°C,Oct-Nov,High,60-90cm,N:P:K 150:100:100
+Carrot,Sandy Loam,16-21°C,Oct-Nov,Medium,40-60cm,N:P:K 60:40:40
+Brinjal,Loamy,25-30°C,Year-round,Medium,60-80cm,N:P:K 100:50:50
+Capsicum,Loamy,18-25°C,Year-round,Medium,50-70cm,N:P:K 100:50:50
+Banana,Loamy,20-30°C,Year-round,High,150-250cm,N:P:K 200:100:200
+Mango,Well-drained Loamy,24-30°C,Jun-Jul,Medium,75-100cm,N:P:K 100:50:100
+Papaya,Sandy Loam,22-30°C,Year-round,Medium,100-150cm,N:P:K 200:200:250
+Guava,Loamy,20-30°C,Jul-Aug,Medium,60-100cm,N:P:K 100:50:50
+Pomegranate,Sandy Loam,25-35°C,Feb-Mar,Low,50-80cm,N:P:K 50:25:25
+Spinach,Loamy,15-25°C,Oct-Nov,High,30-50cm,N:P:K 40:20:20
+Cucumber,Sandy Loam,20-30°C,Feb-Mar,Medium,50-70cm,N:P:K 60:40:40
+Pumpkin,Loamy,25-30°C,Jun-Jul,Medium,50-70cm,N:P:K 60:40:40
+Watermelon,Sandy,22-30°C,Jan-Feb,Medium,40-60cm,N:P:K 60:40:40
+Turmeric,Loamy,20-30°C,Apr-May,High,150-200cm,N:P:K 60:50:120

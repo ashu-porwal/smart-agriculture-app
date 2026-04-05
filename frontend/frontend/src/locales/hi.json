@@ -1,0 +1,58 @@
+{
+  "language": "हिंदी",
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "disease": "रोग पहचान",
+    "crops": "फसल की जानकारी",
+    "weather": "मौसम",
+    "tasks": "कार्य",
+    "chat": "चैट सहायक",
+    "settings": "सेटिंग्स",
+    "logout": "लॉगआउट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "fullName": "पूरा नाम",
+    "mobile": "मोबाइल नंबर (वैकल्पिक)",
+    "location": "स्थान (वैकल्पिक)",
+    "farmSize": "एकड़ में खेत का आकार (वैकल्पिक)",
+    "language": "भाषा (वैकल्पिक)",
+    "haveAccount": "पहले से खाता है?",
+    "noAccount": "खाता नहीं है?",
+    "loggingIn": "लॉग इन हो रहे हैं...",
+    "creatingAccount": "खाता बनाया जा रहा है..."
+  },
+  "dashboard": {
+    "welcome": "स्वागत है",
+    "totalTasks": "कुल कार्य",
+    "completed": "पूर्ण",
+    "pending": "लंबित",
+    "upcomingTasks": "आने वाले कार्य",
+    "featuresAvailable": "🚀 उपलब्ध सुविधाएं",
+    "diseaseDetection": "रोग पहचान",
+    "diseaseDesc": "पत्तियों की तस्वीरें अपलोड करें और रोगों की पहचान करें",
+    "cropInfo": "फसल की जानकारी",
+    "cropDesc": "विस्तृत फसल डेटा और आवश्यकताओं तक पहुंचें",
+    "weather": "मौसम डैशबोर्ड",
+    "weatherDesc": "मौसम की स्थिति और पूर्वानुमान जांचें",
+    "taskManagement": "कार्य प्रबंधन",
+    "taskDesc": "कृषि गतिविधियों की योजना बनाएं और ट्रैक करें",
+    "chatAssistant": "चैट सहायक",
+    "chatDesc": "कृषि मार्गदर्शन प्राप्त करें"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "editProfile": "प्रोफाइल संपादित करें",
+    "changePassword": "पासवर्ड बदलें",
+    "changeLanguage": "भाषा बदलें",
+    "save": "परिवर्तन सहेजें",
+    "currentPassword": "वर्तमान पासवर्ड",
+    "newPassword": "नया पासवर्ड",
+    "confirmNewPassword": "नए पासवर्ड की पुष्टि करें",
+    "selectLanguage": "अपनी भाषा चुनें"
+  }
+}

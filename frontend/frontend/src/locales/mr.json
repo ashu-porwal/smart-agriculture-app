@@ -1,0 +1,58 @@
+{
+  "language": "मराठी",
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "disease": "रोग शोध",
+    "crops": "पीक माहिती",
+    "weather": "हवामान",
+    "tasks": "कार्य",
+    "chat": "चॅट सहायक",
+    "settings": "सेटिंग्स",
+    "logout": "लॉगआउट"
+  },
+  "auth": {
+    "login": "लॉगिन करा",
+    "signup": "साइन अप करा",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड पुष्टी करा",
+    "fullName": "पूर्ण नाव",
+    "mobile": "मोबाईल क्रमांक (पर्यायी)",
+    "location": "स्थान (पर्यायी)",
+    "farmSize": "शेतातील क्षेत्र (पर्यायी)",
+    "language": "भाषा (पर्यायी)",
+    "haveAccount": "आधीच खाते आहे?",
+    "noAccount": "खाते नाही?",
+    "loggingIn": "लॉगिन होत आहे...",
+    "creatingAccount": "खाते तयार होत आहे..."
+  },
+  "dashboard": {
+    "welcome": "स्वागत",
+    "totalTasks": "एकूण कार्य",
+    "completed": "पूर्ण",
+    "pending": "बाकी",
+    "upcomingTasks": "आगामी कार्य",
+    "featuresAvailable": "🚀 उपलब्ध वैशिष्ट्य",
+    "diseaseDetection": "रोग शोध",
+    "diseaseDesc": "पानांची प्रतिमा अपलोड करा आणि रोग ओळखा",
+    "cropInfo": "पीक माहिती",
+    "cropDesc": "तपशीलवार पीक माहिती आणि आवश्यकता प्राप्त करा",
+    "weather": "हवामान डॅशबोर्ड",
+    "weatherDesc": "हवामानाची स्थिती आणि अंदाज तपासा",
+    "taskManagement": "कार्य व्यवस्थापन",
+    "taskDesc": "कृषि क्रियाकलाप योजना बनवा आणि ट्रॅक करा",
+    "chatAssistant": "चॅट सहायक",
+    "chatDesc": "कृषि मार्गदर्शन मिळवा"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "editProfile": "प्रोफाइल संपादित करा",
+    "changePassword": "पासवर्ड बदला",
+    "changeLanguage": "भाषा बदला",
+    "save": "बदल जतन करा",
+    "currentPassword": "वर्तमान पासवर्ड",
+    "newPassword": "नवीन पासवर्ड",
+    "confirmNewPassword": "नवीन पासवर्ड पुष्टी करा",
+    "selectLanguage": "तुमची भाषा निवडा"
+  }
+}

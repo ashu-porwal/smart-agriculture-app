@@ -1,0 +1,36 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.DS_Store
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/npm-debug.log
+backend/yarn-error.log
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.DS_Store
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment
+.env.example
+
+model/datasets/*

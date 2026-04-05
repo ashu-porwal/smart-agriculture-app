@@ -1,0 +1,58 @@
+{
+  "language": "ਪੰਜਾਬੀ",
+  "nav": {
+    "dashboard": "ਡੈਸ਼‌ਬੋਰਡ",
+    "disease": "ਬਿਮਾਰੀ ਪਛਾਣ",
+    "crops": "ਫਸਲ ਦੀ ਜਾਣਕਾਰੀ",
+    "weather": "ਮੌਸਮ",
+    "tasks": "ਕੰਮ",
+    "chat": "ਚੈਟ ਤਰਲ",
+    "settings": "ਸੈਟਿੰਗਜ਼",
+    "logout": "ਲਾਗ ਆਊਟ"
+  },
+  "auth": {
+    "login": "ਲਾਗਇਨ",
+    "signup": "ਸਾਈਨ ਅਪ",
+    "email": "ਈ-ਮੇਲ",
+    "password": "ਪਾਸ ਵਰਡ",
+    "confirmPassword": "ਪਾਸ ਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "fullName": "ਪੂਰੀ ਨਾਮ",
+    "mobile": "ਮੋਬਾਈਲ ਨੰਬਰ (ਭੁੱਜ)",
+    "location": "ਲੋਕੇਸ਼ਨ (ਭੁੱਜ)",
+    "farmSize": "ਖੇਤ ਦਾ ਸਾਇਜ਼ (ਭੁੱਜ)",
+    "language": "ਭਾਸ਼ਾ (ਭੁੱਜ)",
+    "haveAccount": "ਪਹਿਲਾਂ ਤੋਂ ਖਾਤਾ ਹੈ?",
+    "noAccount": "ਕੋਈ ਖਾਤਾ ਹੈ?",
+    "loggingIn": "ਲਾਗਇਨ ਹੋ ਰਿਹਾ ਹੈ...",
+    "creatingAccount": "ਖਾਤਾ ਬਣ ਰਿਹਾ ਹੈ..."
+  },
+  "dashboard": {
+    "welcome": "ਸਵਾਗਤ ਹੈ",
+    "totalTasks": "ਕੁੱਲ ਕੰਮ",
+    "completed": "ਟ੍ਰਾਂਸਪੋਜ਼",
+    "pending": "ਹੁਲ ਵਿਚ",
+    "upcomingTasks": "ਆਓ ਵਾਲੇ ਕਾਮ",
+    "featuresAvailable": "🚀 ਉਪਲਬਧ ਵਿਸ਼ੇਸ਼ਤਾਵਾ",
+    "diseaseDetection": "ਬਿਮਾਰੀ ਪਛਾਣ",
+    "diseaseDesc": "ਤੁੱਗਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਪ ਕਰੋ ਅਤੇ ਬਿਮਾਰੀਆਂ ਦਾ ਪਤਾ ਕਰੋ",
+    "cropInfo": "ਫਸਲ ਦੀ ਜਾਣਕਾਰੀ",
+    "cropDesc": "ਤਫਸੀਲ ਫਸਲ ਡਾਟਾ ਅਤੇ ਜ਼ਾਹਰਭਜ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "weather": "ਮੌਸਮ ਡੈਸ਼‌ਬੋਰਡ",
+    "weatherDesc": "ਮੌਸਮ ਦੀ ਸਥਿਤੀ ਅਤੇ ਪੂਵਾਣ ਵੇਖੋ",
+    "taskManagement": "ਕੰਮ ਪ੍ਰਬੰਧਨ",
+    "taskDesc": "ਕ੍ਰਿਸ਼ੀ ਕਿਰਿਆ ਦੀ ਯੋਜਨਾ ਬਣਾਓ ਅਤੇ ਟ੍ਰੈਕ ਕਰੋ",
+    "chatAssistant": "ਚੈਟ ਤਰਲ",
+    "chatDesc": "ਕ੍ਰਿਸ਼ੀ ਸਲਾਹ ਪ੍ਰਾਪਤ ਕਰੋ"
+  },
+  "settings": {
+    "title": "ਸੈਟਿੰਗਜ਼",
+    "editProfile": "ਪ੍ਰੋਫਾਈਲ ਮਿਟਵਾਓ",
+    "changePassword": "ਪਾਸ ਵਰਡ ਵਿਕਲਪ",
+    "changeLanguage": "ਭਾਸ਼ਾ ਸਬਦ",
+    "save": "ਤਬਦੀਲੀਆਂ ਬਚਾਓ",
+    "currentPassword": "ਮੌਜੂਦਾ ਪਾਸ ਵਰਡ",
+    "newPassword": "ਨਵਾਂ ਪਾਸ ਵਰਡ",
+    "confirmNewPassword": "ਨਵੇਂ ਪਾਸ ਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "selectLanguage": "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "language": "ગુજરાતી",
+  "nav": {
+    "dashboard": "ડ્યાશબોર્ડ",
+    "disease": "રોગ શોધ",
+    "crops": "પાકની માહિતી",
+    "weather": "હવામાન",
+    "tasks": "કાર્યો",
+    "chat": "ચેટ સહાયક",
+    "settings": "સેટિંગ્સ",
+    "logout": "લૉગ આઉટ"
+  },
+  "auth": {
+    "login": "લૉગિન",
+    "signup": "સાઇન અપ",
+    "email": "ઈમેલ",
+    "password": "પાસવર્ડ",
+    "confirmPassword": "પાસવર્ડ પુષ્ટિ કરો",
+    "fullName": "સંપૂર્ણ નામ",
+    "mobile": "મોબાઇલ નંબર (વૈકલ્પિક)",
+    "location": "સ્થાન (વૈકલ્પિક)",
+    "farmSize": "ખેતરનો આકાર (વૈકલ્પિક)",
+    "language": "ભાષા (વૈકલ્પિક)",
+    "haveAccount": "પહેલાથી ખાતું છે?",
+    "noAccount": "ખાતું નથી?",
+    "loggingIn": "લૉગ ઇન કરી રહ્યા છીએ...",
+    "creatingAccount": "ખાતું બનાવવામાં આવી રહ્યું છે..."
+  },
+  "dashboard": {
+    "welcome": "સ્વાગત છે",
+    "totalTasks": "કુલ કાર્યો",
+    "completed": "પૂર્ણ",
+    "pending": "બાકી",
+    "upcomingTasks": "આવનારા કાર્યો",
+    "featuresAvailable": "🚀 ઉપલબ્ધ વિશેષતાઓ",
+    "diseaseDetection": "રોગ શોધ",
+    "diseaseDesc": "પાંદડાઓની છબીઓ અપલોડ કરો અને રોગો શોધો",
+    "cropInfo": "પાકની માહિતી",
+    "cropDesc": "વિસ્તૃત પાક ડેટા અને આવશ્યકતાઓ તરફ",
+    "weather": "હવામાન ડ્યાશબોર્ડ",
+    "weatherDesc": "હવામાનની સ્થિતિ અને આગાહી તપાસો",
+    "taskManagement": "કાર્ય વ્યવસ્થાપન",
+    "taskDesc": "કૃષિ પ્રવૃત્તિઓ યોજના કરો અને ટ્રેક કરો",
+    "chatAssistant": "ચેટ સહાયક",
+    "chatDesc": "કૃષિ માર્ગદર્શન મેલવો"
+  },
+  "settings": {
+    "title": "સેટિંગ્સ",
+    "editProfile": "પ્રોફાઇલ સંપાદિત કરો",
+    "changePassword": "પાસવર્ડ બદલો",
+    "changeLanguage": "ભાષા બદલો",
+    "save": "ફેરફારો સંગ્રહો",
+    "currentPassword": "વર્તમાન પાસવર્ડ",
+    "newPassword": "નવો પાસવર્ડ",
+    "confirmNewPassword": "નવો પાસવર્ડ પુષ્ટિ કરો",
+    "selectLanguage": "તમારી ભાષા પસંદ કરો"
+  }
+}

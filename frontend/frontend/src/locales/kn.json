@@ -1,0 +1,58 @@
+{
+  "language": "ಕನ್ನಡ",
+  "nav": {
+    "dashboard": "ಮುಖ್ಯ ಪುಟ",
+    "disease": "ರೋಗ ಪತ್ತೆ",
+    "crops": "ಸಸ್ಯ ಮಾಹಿತಿ",
+    "weather": "ಹವಾಮಾನ",
+    "tasks": "ಕಾರ್ಯಗಳು",
+    "chat": "ಚ್ಯಾಟ್ ಸಹಾಯಕ",
+    "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "logout": "ಲಾಗ್‌ಔಟ್"
+  },
+  "auth": {
+    "login": "ಲಾಗಿನ್",
+    "signup": "ಸೈನ್ ಅಪ್",
+    "email": "ಇಮೇಲ್",
+    "password": "ಪಾಸ್‌ವರ್ಡ್",
+    "confirmPassword": "ಪಾಸ್‌ವರ್ಡ್ ಸ್ಥಿರೀಕರಿಸಿ",
+    "fullName": "ಪೂರ್ಣ ಹೆಸರು",
+    "mobile": "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ (ಐಚ್ಛಿಕ)",
+    "location": "ಸ್ಥಳ (ಐಚ್ಛಿಕ)",
+    "farmSize": "ಜಮೀನಿನ ಪ್ರಮಾಣ (ಐಚ್ಛಿಕ)",
+    "language": "ಭಾಷೆ (ಐಚ್ಛಿಕ)",
+    "haveAccount": "ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?",
+    "noAccount": "ಖಾತೆ ಇಲ್ಲವೇ?",
+    "loggingIn": "ಲಾಗಿನ್ ಆಗುತ್ತಿದೆ...",
+    "creatingAccount": "ಖಾತೆ ರಚಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "dashboard": {
+    "welcome": "ಸ್ವಾಗತ",
+    "totalTasks": "ಒಟ್ಟು ಕಾರ್ಯಗಳು",
+    "completed": "ಪೂರ್ಣ",
+    "pending": "ಬಾಕಿ",
+    "upcomingTasks": "ಮುಂದಿನ ಕಾರ್ಯಗಳು",
+    "featuresAvailable": "🚀 ಲಭ್ಯವಿರುವ ವೈಶಿಷ್ಟ್ಯಗಳು",
+    "diseaseDetection": "ರೋಗ ಪತ್ತೆ",
+    "diseaseDesc": "ಎಲೆಯ ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ರೋಗಗಳನ್ನು ಗುರುತಿಸಿ",
+    "cropInfo": "ಸಸ್ಯ ಮಾಹಿತಿ",
+    "cropDesc": "ವಿವರವಾದ ಸಸ್ಯ ಡೇಟಾ ಮತ್ತು ಅವಶ್ಯಕತೆಗಳನ್ನು ಪ್ರವೇಶಿಸಿ",
+    "weather": "ಹವಾಮಾನ ಮುಖ್ಯ ಪುಟ",
+    "weatherDesc": "ಹವಾಮಾನ ಸ್ಥಿತಿ ಮತ್ತು ಮುನ್ನಡೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "taskManagement": "ಕಾರ್ಯ ನಿರ್ವಹಣೆ",
+    "taskDesc": "ಕೃಷಿ ಕಾರ್ಯಕಲಾಪಗಳನ್ನು ಯೋಜನೆ ಮತ್ತು ಟ್ರ್যಾಕ್ ಮಾಡಿ",
+    "chatAssistant": "ಚ್ಯಾಟ್ ಸಹಾಯಕ",
+    "chatDesc": "ಕೃಷಿ ಮಾರ್ಗದರ್ಶನ ಪಡೆಯಿರಿ"
+  },
+  "settings": {
+    "title": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "editProfile": "ಪ್ರೋಫೈಲ್ ಸಂಪಾದಿಸಿ",
+    "changePassword": "ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ",
+    "changeLanguage": "ಭಾಷೆ ಬದಲಾಯಿಸಿ",
+    "save": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+    "currentPassword": "ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್",
+    "newPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್",
+    "confirmNewPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಸ್ಥಿರೀಕರಿಸಿ",
+    "selectLanguage": "ನಿಮ್ಮ ಭಾಷೆ ಆರಿಸಿ"
+  }
+}

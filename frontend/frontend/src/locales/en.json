@@ -1,0 +1,58 @@
+{
+  "language": "English",
+  "nav": {
+    "dashboard": "Dashboard",
+    "disease": "Disease Detection",
+    "crops": "Crop Info",
+    "weather": "Weather",
+    "tasks": "Tasks",
+    "chat": "Chat Assistant",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "mobile": "Mobile Number (Optional)",
+    "location": "Location (Optional)",
+    "farmSize": "Farm Size in Acres (Optional)",
+    "language": "Language (Optional)",
+    "haveAccount": "Already have an account?",
+    "noAccount": "Don't have an account?",
+    "loggingIn": "Logging in...",
+    "creatingAccount": "Creating account..."
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "totalTasks": "Total Tasks",
+    "completed": "Completed",
+    "pending": "Pending",
+    "upcomingTasks": "Upcoming Tasks",
+    "featuresAvailable": "🚀 Features Available",
+    "diseaseDetection": "Disease Detection",
+    "diseaseDesc": "Upload leaf images and identify diseases",
+    "cropInfo": "Crop Information",
+    "cropDesc": "Access detailed crop data and requirements",
+    "weather": "Weather Dashboard",
+    "weatherDesc": "Check weather conditions and forecasts",
+    "taskManagement": "Task Management",
+    "taskDesc": "Plan and track farming activities",
+    "chatAssistant": "Chat Assistant",
+    "chatDesc": "Get AI-powered farming guidance"
+  },
+  "settings": {
+    "title": "Settings",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "changeLanguage": "Change Language",
+    "save": "Save Changes",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "selectLanguage": "Select Your Language"
+  }
+}

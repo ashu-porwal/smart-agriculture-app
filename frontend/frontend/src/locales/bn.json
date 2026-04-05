@@ -1,0 +1,58 @@
+{
+  "language": "বাংলা",
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "disease": "রোগ সনাক্তকরণ",
+    "crops": "ফসলের তথ্য",
+    "weather": "আবহাওয়া",
+    "tasks": "কাজ",
+    "chat": "চ্যাট সহায়ক",
+    "settings": "সেটিংস",
+    "logout": "লগ আউট"
+  },
+  "auth": {
+    "login": "লগইন করুন",
+    "signup": "সাইন আপ করুন",
+    "email": "ইমেল",
+    "password": "পাসওয়ার্ড",
+    "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+    "fullName": "সম্পূর্ণ নাম",
+    "mobile": "মোবাইল নম্বর (ঐচ্ছিক)",
+    "location": "অবস্থান (ঐচ্ছিক)",
+    "farmSize": "খামারের আকার (ঐচ্ছিক)",
+    "language": "ভাষা (ঐচ্ছিক)",
+    "haveAccount": "ইতিমধ্যে অ্যাকাউন্ট আছে?",
+    "noAccount": "অ্যাকাউন্ট নেই?",
+    "loggingIn": "লগইন করছি...",
+    "creatingAccount": "অ্যাকাউন্ট তৈরি করছি..."
+  },
+  "dashboard": {
+    "welcome": "স্বাগতম",
+    "totalTasks": "মোট কাজ",
+    "completed": "সম্পন্ন",
+    "pending": "বাকি",
+    "upcomingTasks": "আসন্ন কাজ",
+    "featuresAvailable": "🚀 উপলব্ধ বৈশিষ্ট্যসমূহ",
+    "diseaseDetection": "রোগ সনাক্তকরণ",
+    "diseaseDesc": "পাতার ছবি আপলোড করুন এবং রোগ চিহ্নিত করুন",
+    "cropInfo": "ফসলের তথ্য",
+    "cropDesc": "বিস্তারিত ফসলের ডেটা এবং প্রয়োজনীয়তা অ্যাক্সেস করুন",
+    "weather": "আবহাওয়া ড্যাশবোর্ড",
+    "weatherDesc": "আবহাওয়ার অবস্থা এবং পূর্বাভাস পরীক্ষা করুন",
+    "taskManagement": "কাজ পরিচালনা",
+    "taskDesc": "কৃষি কার্যক্রম পরিকল্পনা এবং ট্র্যাক করুন",
+    "chatAssistant": "চ্যাট সহায়ক",
+    "chatDesc": "কৃষি নির্দেশনা পান"
+  },
+  "settings": {
+    "title": "সেটিংস",
+    "editProfile": "প্রোফাইল সম্পাদনা করুন",
+    "changePassword": "পাসওয়ার্ড পরিবর্তন করুন",
+    "changeLanguage": "ভাষা পরিবর্তন করুন",
+    "save": "পরিবর্তনগুলি সংরক্ষণ করুন",
+    "currentPassword": "বর্তমান পাসওয়ার্ড",
+    "newPassword": "নতুন পাসওয়ার্ড",
+    "confirmNewPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন",
+    "selectLanguage": "আপনার ভাষা নির্বাচন করুন"
+  }
+}
