@@ -10,25 +10,7 @@ CORS(app)
 
 model = load_model("model.h5")
 
-classes = [
-    "Apple___Apple_scab",
-    "Apple___Black_rot",
-    "Apple___Cedar_apple_rust",
-    "Apple___healthy",
-    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
-    "Corn_(maize)___Common_rust_",
-    "Corn_(maize)___Northern_Leaf_Blight",
-    "Corn_(maize)___healthy",
-    "Potato___Early_blight",
-    "Potato___Late_blight",
-    "Potato___healthy",
-    "Tomato___Bacterial_spot",
-    "Tomato___Early_blight",
-    "Tomato___Late_blight",
-    "Tomato___healthy",
-    "Strawberry___Leaf_scorch",
-    "Strawberry___healthy"
-]
+classes = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy', 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 'Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy', 'Strawberry___Leaf_scorch', 'Strawberry___healthy', 'Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___healthy']
 
 data = {
     "Apple___Apple_scab": {
