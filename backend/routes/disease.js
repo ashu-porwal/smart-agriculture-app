@@ -3,6 +3,9 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const authenticate = require('../middleware/authenticate');
+const axios = require("axios");
+const FormData = require("form-data");
+
 
 const router = express.Router();
 
@@ -39,7 +42,7 @@ const upload = multer({
 });
 
 // Simulate disease detection (in production, use a real ML model or API)
-const detectDisease = (imagePath) => {
+/*const detectDisease = (imagePath) => {
   // Mock disease detection results
   const mockDiseases = [
     {
@@ -65,17 +68,59 @@ const detectDisease = (imagePath) => {
   ];
 
   return mockDiseases[Math.floor(Math.random() * mockDiseases.length)];
-};
+};*/
 
 // Upload and detect disease
-router.post('/detect', authenticate, upload.single('image'), (req, res) => {
+// router.post('/detect', authenticate, upload.single('image'), (req, res) => {
+//   try {
+//     if (!req.file) {
+//       return res.status(400).json({ message: 'No image provided' });
+//     }
+
+//     const imagePath = req.file.path;
+//     const detection = detectDisease(imagePath);
+
+//     res.json({
+//       message: 'Disease detection successful',
+//       image: {
+//         filename: req.file.filename,
+//         path: `/api/disease/${req.file.filename}`,
+//       },
+//       detection: {
+//         disease: detection.disease,
+//         confidence: (detection.confidence * 100).toFixed(2) + '%',
+//         recommendation: detection.recommendation,
+//       },
+//     });
+//   } catch (error) {
+//     if (req.file) {
+//       fs.unlink(req.file.path, (err) => {
+//         if (err) console.error('Error deleting file:', err);
+//       });
+//     }
+//     res.status(500).json({ message: 'Error detecting disease', error: error.message });
+//   }
+// });
+
+router.post('/detect', authenticate, upload.single('file'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ message: 'No image provided' });
     }
 
-    const imagePath = req.file.path;
-    const detection = detectDisease(imagePath);
+    const formData = new FormData();
+    formData.append('file', fs.createReadStream(req.file.path));
+
+    // 🔥 CALL YOUR ML MODEL
+    const response = await axios.post(
+      process.env.ML_API_URL + '/predict',
+      formData,
+      {
+        headers: formData.getHeaders(),
+      }
+    );
+
+    const data = response.data;
 
     res.json({
       message: 'Disease detection successful',
@@ -84,18 +129,25 @@ router.post('/detect', authenticate, upload.single('image'), (req, res) => {
         path: `/api/disease/${req.file.filename}`,
       },
       detection: {
-        disease: detection.disease,
-        confidence: (detection.confidence * 100).toFixed(2) + '%',
-        recommendation: detection.recommendation,
+        crop: data.crop,
+        disease: data.disease,
+        confidence: data.confidence + '%',
+        treatment: data.treatment,
+        precaution: data.precaution,
       },
     });
+
   } catch (error) {
+    console.error(error);
+
     if (req.file) {
-      fs.unlink(req.file.path, (err) => {
-        if (err) console.error('Error deleting file:', err);
-      });
+      fs.unlink(req.file.path, () => {});
     }
-    res.status(500).json({ message: 'Error detecting disease', error: error.message });
+
+    res.status(500).json({
+      message: 'Error detecting disease',
+      error: error.message,
+    });
   }
 });
 
