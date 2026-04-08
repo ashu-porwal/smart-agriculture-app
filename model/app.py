@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 model = load_model("model.h5")
-dataset_path = "datasets/New Plant Diseases Dataset(Augmented)/New Plant Diseases Dataset(Augmented)/train"
+
 classes = [
     "Apple___Apple_scab",
     "Apple___Black_rot",
@@ -17,17 +17,17 @@ classes = [
     "Apple___healthy",
     "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
     "Corn_(maize)___Common_rust_",
-    "Corn_(maize)___healthy",
     "Corn_(maize)___Northern_Leaf_Blight",
+    "Corn_(maize)___healthy",
     "Potato___Early_blight",
-    "Potato___healthy",
     "Potato___Late_blight",
-    "Strawberry___healthy",
-    "Strawberry___Leaf_scorch",
+    "Potato___healthy",
     "Tomato___Bacterial_spot",
     "Tomato___Early_blight",
+    "Tomato___Late_blight",
     "Tomato___healthy",
-    "Tomato___Late_blight"
+    "Strawberry___Leaf_scorch",
+    "Strawberry___healthy"
 ]
 
 data = {
