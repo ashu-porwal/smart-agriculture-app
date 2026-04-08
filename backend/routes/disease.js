@@ -144,10 +144,12 @@ router.post('/detect', authenticate, upload.single('file'), async (req, res) => 
       fs.unlink(req.file.path, () => {});
     }
 
-    res.status(500).json({
-      message: 'Error detecting disease',
-      error: error.message,
-    });
+   console.error("FULL ERROR:", error.response?.data || error.message);
+
+  res.status(500).json({
+    message: 'Server error',
+    error: error.response?.data || error.message,
+  });
   }
 });
 
