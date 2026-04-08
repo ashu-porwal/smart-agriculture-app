@@ -102,7 +102,7 @@ const upload = multer({
 //   }
 // });
 
-router.post('/detect', authenticate, upload.single('file'), async (req, res) => {
+router.post('/detect', upload.single('file'), async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ message: 'No image provided' });
