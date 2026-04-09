@@ -86,12 +86,13 @@ function DiseaseDetection() {
       //const response = await diseaseAPI.detectDisease(selectedImage);
       //setDetection(response.data.detection);
       const result = await diseaseAPI.detectDisease(selectedImage);
+
       setDetection({
-        crop: result.crop,
-        disease: result.disease,
-        confidence: result.confidence + "%",
-        treatment: result.treatment,
-        precaution: result.precaution
+        crop: result.data.detection.crop,
+        disease: result.data.detection.disease,
+        confidence: result.data.detection.confidence,
+        treatment: result.data.detection.treatment,
+        precaution: result.data.detection.precaution
       });
 
       setSuccess('Disease detection completed!');
