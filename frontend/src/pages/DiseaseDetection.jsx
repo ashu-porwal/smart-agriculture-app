@@ -72,39 +72,33 @@ function DiseaseDetection() {
     }
   };
 
-  const handleDetect = async () => {
-    if (!selectedImage) {
-      setError('Please select an image first');
-      return;
-    }
+ const handleDetect = async () => {
+  if (!selectedImage) {
+    setError('Please select an image first');
+    return;
+  }
 
-    setLoading(true);
-    setError('');
-    setSuccess('');
+  setLoading(true);
+  setError('');
+  setSuccess('');
 
-    try {
-      //const response = await diseaseAPI.detectDisease(selectedImage);
-      //setDetection(response.data.detection);
-      const result = await diseaseAPI.detectDisease(selectedImage);
+  try {
+    const result = await diseaseAPI.detectDisease(selectedImage);
 
-      setDetection({
-        crop: result.data.detection.crop,
-        disease: result.data.detection.disease,
-        confidence: result.data.detection.confidence,
-        treatment: result.data.detection.treatment,
-        precaution: result.data.detection.precaution
-      });
+    // 🔥 SIMPLIFIED & ROBUST - set the whole detection object
+    console.log('✅ Full backend response:', result.data); // ← temporary debug
 
-      setSuccess('Disease detection completed!');
-      setSelectedImage(null);
-    } catch (err) {
-      console.error(err);
-      setError(err.response?.data?.message || 'Error detecting disease');
-    } finally {
-      setLoading(false);
-    }
-  };
+    setDetection(result.data.detection);   // ← this is all you need
 
+    setSuccess('Disease detection completed!');
+    setSelectedImage(null);
+  } catch (err) {
+    console.error('Detection error:', err);
+    setError(err.response?.data?.message || err.message || 'Error detecting disease');
+  } finally {
+    setLoading(false);
+  }
+};
   const handleUploadAnother = () => {
     setSelectedImage(null);
     setImagePreview(null);
